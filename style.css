@@ -1,0 +1,72 @@
+/* I have done this part. */
+
+a {
+ text-decoration: underline blue;
+ cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: green;
+}
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  background-color: #3290DE;
+  border: 4px solid #239DEF;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 5px 4px lightblue;
+}
+
+.btn:hover {
+  color: red;
+  background-color: white;
+  font-size: 25px;
+  font-family: italic;
+  border: none;
+  box-shadow: none;
+  transition: color 1s ease-in;
+  background-color: 1s ease-in;
+  font-size: 10px;
+  transition: font-size 2s ease-in-out;
+}
+
+.btn:active {
+  color: red;
+  background-color: white;
+}
+
+.activity {
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10%;
+  margin: 20px;
+  width: 135px;
+  height: 60px;
+  padding: 5px 15px;
+  font-size: 25px;
+}
+
+.activity:hover {
+  background-color: red;
+  font-size: 15px;
+  transition: color .2s;
+}
+
+.activity:active {
+  color: red;
+  background-color: white;
+  transition: color 2s ease-in-out;
+}
